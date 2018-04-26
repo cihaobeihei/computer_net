@@ -114,3 +114,11 @@ sed -i.bak 's@#UseDNS yes@UseDNS no@g;s@^GSSAPIAuthentication yes@GSSAPIAuthenti
 /etc/init.d/sshd reload
 ```
 
+# 虚拟主机克隆操作
+__第一步：调整虚拟主机网络配置信息__<br>
+-  一清空 两删除
+    - 两删除：删除网卡（eth0 eth1）中，UUID（硬件标识信息）和HWADDR（网络mac地址）进行删除
+        - sed -ri '/UUID|HWADDR/d'  /etc/sysconfig/network-scripts/ifcfg-eth[01]
+    - 一清空：清空网络规则配置文件
+        - echo '>/etc/udev/rules.d/70-persistent-net.rules' >>/etc/rc.local
+- 克隆机重新启动
