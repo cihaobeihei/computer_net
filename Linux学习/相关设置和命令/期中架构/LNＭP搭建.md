@@ -126,7 +126,7 @@ __03. LNMP架构部署__<br>
         php.ini php-fpm.ini
         cp php.ini-production /application/php-5.5.32/lib/
 		cd /application/php/etc/
-		cp php-fpm.conf.default php-fpm.con
+		cp php-fpm.conf.default php-fpm.conf
 		```
 
         - 第四个里程：启动php程序服务<br>
@@ -150,9 +150,9 @@ __03. LNMP架构部署__<br>
     <?php
         //$link_id=mysql_connect('主机名','用户','密码');
         //mysql -u用户 -p密码 -h 主机
-        $link_id=mysql_connect('localhost','root','oldboy123') or mysql_error();
+        $link_id=mysql_connect('localhost','root','xxxxxx') or mysql_error();
         if($link_id){
-                     echo "mysql successful by oldboy !\n";
+                     echo "mysql successful by noble !\n";
                     }else{
                      echo mysql_error();
                     }
@@ -178,6 +178,7 @@ __03. LNMP架构部署__<br>
 	   创建连接数据用户信息<br>
 	   ```
 	   grant all on wordpress.* to 'wordpress'@'localhost' identified by 'oldboy123';
+     grant all privileges  on *.* to root@'%' identified by 'password';
 	   select user,host from mysql.user;
 	   ```
 
@@ -185,53 +186,3 @@ __03. LNMP架构部署__<br>
 	   01. LNMP架构数据库服务的迁移<br>
 	   02. LNMP架构数据资源迁移到NFS服务器存储<br>
 	   03. nginx反向代理与负载均衡功能<br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

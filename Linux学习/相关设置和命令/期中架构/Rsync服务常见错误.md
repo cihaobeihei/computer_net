@@ -33,7 +33,10 @@ __2. rsync客户端执行rsync命令错误__<br>
    [root@nfs01 tmp]# rsync -avz /etc/hosts rsync_backup@172.16.1.41::/backup
    ERROR: The remote path must start with a module name not a /
    rsync error: error starting client-server protocol (code 5) at main.c(1503) [sender=3.0.6]
+  ```
+
   【异常问题解决】
+  ```
    rsync命令语法理解错误，::/backup是错误的语法，应该为::backup(rsync模块)
   ```
 
@@ -186,5 +189,3 @@ __10 rsync服务没有正确启动__<br>
    sent 196 bytes  received 27 bytes  49.56 bytes/sec
    total size is 349  speedup is 1.57
   ```
-
-

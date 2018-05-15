@@ -1,0 +1,30 @@
+# command code
+# author:noble
+# time:2018-5-11
+# vision:0.0
+#
+
+- hosts: web
+  tasks:
+    - name: step01:install pcre-devel
+      yum: name=pcre-devel state=installed
+    - name: step02:install openssl-devel
+      yum: name=openssl-devel state=installed
+    - name: step03:create tools directory
+      file: name=/server/tools state=directory
+    - name: step04:get package of nginx
+      copy: src=/etc/ansible/conf/nginx_conf/nginx-1.12.2.tar.gz dest=/server/tools/nginx-1.12.2.tar.gz
+    - name: step05:change directory
+      shell: cd /server/tools/
+    - name: step06:decompression file
+      unarchive: src=/server/tools/nginx-1.12.2.tar.gz dest=/server/tools/ remote_src=yes
+    - name: step07:create durectory of /application/
+      file: name=/application state=directory
+    - name: step08:install nginx
+      shell: cd /server/tools/nginx-1.12.2;./configure --prefix=/application/nginx-12.2 --user=www --group=www --with-http_ssl_module --with-http_stub_status_module;make install 
+    - name: step09:create link to nginx
+      shell: creates=/application/nginx ln -s /application/nginx-12.2 /application/nginx
+    - name: step10:run nginx
+      shell: creates=/application/nginx-12.2/logs/nginx.pid /application/nginx/sbin/nginx
+    - name: step11:simple nginx configure file
+      shell: cd /application/nginx/conf/;egrep -v "#|^$" nginx.conf.default > nginx.conf

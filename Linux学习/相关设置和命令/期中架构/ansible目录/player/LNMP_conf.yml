@@ -1,0 +1,32 @@
+# command code
+# author:noble
+# time:2018-5-13
+# vision:0.0
+#
+
+- hosts: web
+  tasks:
+    - name: step01:edit conf
+      copy: src=/etc/ansible/conf/LNMP_conf/nginx.conf dest=/application/nginx/conf/
+    - name: step02:create blogs directory
+      file: name=/application/nginx/html/blog state=directory
+    - name: step02:edit conf_2
+      copy: src=/etc/ansible/conf/LNMP_conf/text_info.php dest=/application/nginx/html/blog/text_info.php
+    - name: step03:create /server/tools directory
+      file: name=/server/tools state=directory
+    - name: step04:copy web_side
+      copy: src=/etc/ansible/conf/LNMP_conf/wordpress-4.7.3-zh_CN.tar.gz dest=/server/tools/
+    - name: step05:tar file
+      shell: chdir=/server/tools/ tar -zxf wordpress-4.7.3-zh_CN.tar.gz
+    - name: step06:load web_side
+      shell: mv /server/tools/wordpress/* /application/nginx/html/blog/
+    - name: step07:chang owner
+      shell: chown -R www.www /application/nginx/html/blog/
+    - name: step07:restart nginx
+      shell: /application/nginx/sbin/nginx -s reload
+    - name: step08:create directory uploads
+      file: name=/application/nginx/html/blog/wp-content/uploads/ state=directory
+    - name: step09:mount directory nfs
+      shell: mount -t nfs 172.16.1.31:/data/ /application/nginx/html/blog/wp-content/uploads/
+#    - name: step10:copy data
+#      copy: src=/application/nginx/html/blog/wp-content/uploads/* dest=/data/

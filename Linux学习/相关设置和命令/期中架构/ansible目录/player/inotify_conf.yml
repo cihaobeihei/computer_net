@@ -1,0 +1,20 @@
+# comment code
+# author:noble
+# time:2018-5-11
+# vision:0.0
+#
+
+- hosts: nfs
+  tasks:
+    - name: step01:check epel sourse
+      shell: wget -O /etc/yum.repos.d/epel.repo http://mirrors.aliyun.com/repo/epel-6.repo
+    - name: step02:install inotify
+      yum: name=inotify-tools state=installed
+    - name: step03:create directory to save scripts
+      file: name=/server/scripts state=directory
+    - name: step04:edit script to connect inotify and rsync
+      copy: src=/etc/ansible/conf/inotify_conf/real_time.sh dest=/server/scripts/real_time.sh
+    - name: step05:change mode of real_time.sh
+      file: dest=/server/scripts/real_time.sh mode=755
+    - name: step06:run sh
+      shell: /usr/bin/nohup /server/scripts/real_time.sh

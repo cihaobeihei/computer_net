@@ -1,0 +1,40 @@
+# command code
+# author:noble
+# time:2018-5-11
+# vision:0.0
+#
+
+- hosts: web
+  tasks:
+    - name: step01:solve relationsipe
+      shell: yum install -y zlib-devel libxml2-devel libjpeg-devel libjpeg-turbo-devel libiconv-devel freetype-devel libpng-devel gd-devel libcurl-devel libxslt-devel
+    - name: step02:install libiconv
+      copy: src=/etc/ansible/conf/php_conf/libiconv-1.14.tar.gz dest=/server/tools/libiconv-1.14.tar.gz
+    - name: step03:install libiconv_02
+      shell: chdir=/server/tools tar -zxf libiconv-1.14.tar.gz
+    - name: step04:install libiconv_03
+      shell: chdir=/server/tools/libiconv-1.14 ./configure --prefix=/usr/local/libiconv;make; make install
+    - name: step04:solve relationship
+      yum: name=libmcrypt-devel state=installed
+    - name: step05:solve relationship
+      yum: name=mhash state=installed
+    - name: step06:solve relationship
+      yum: name=mcrypt state=installed
+    - name: step07:create tools directory
+      file: name=/server/tools state=directory
+    - name: step08:get_package
+      copy: src=/etc/ansible/conf/php_conf/php-5.5.32.tar.gz dest=/server/tools/php-5.5.32.tar.gz
+    - name: step09:decompression package
+      shell: cd /server/tools/;tar -zxf php-5.5.32.tar.gz
+    - name: step10:install php
+      shell: chdir=/server/tools/php-5.5.32 ./configure --prefix=/application/php-5.5.32 --with-mysql=mysqlnd --with-pdo-mysql=mysqlnd --with-iconv-dir=/usr/local/libiconv --with-freetype-dir --with-jpeg-dir --with-png-dir --with-zlib --with-libxml-dir=/usr --enable-xml --disable-rpath --enable-bcmath --enable-shmop --enable-sysvsem --enable-inline-optimization --with-curl --enable-mbregex --enable-fpm --enable-mbstring --with-mcrypt --with-gd --enable-gd-native-ttf --with-openssl --with-mhash --enable-pcntl --enable-sockets --with-xmlrpc --enable-soap --enable-short-tags --enable-static --with-xsl --with-fpm-user=www --with-fpm-group=www --enable-ftp --enable-opcache=no
+    - name: step11:install php
+      shell: chdir=/server/tools/php-5.5.32 make;make install create=/application/php-5.5.32
+    - name: step12:create link
+      shell: ln -s /application/php-5.5.32/ /application/php creates=/application/php
+    - name: step13:config 
+      shell: chdir=/server/tools/php-5.5.32 cp php.ini-production /application/php-5.5.32/lib/
+    - name: step14:config_2
+      shell: chdir=/application/php/etc/ cp php-fpm.conf.default php-fpm.conf
+    - name: step15:run php
+      shell: /application/php/sbin/php-fpm
