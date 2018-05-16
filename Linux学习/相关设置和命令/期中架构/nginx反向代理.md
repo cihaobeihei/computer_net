@@ -13,23 +13,23 @@
 __01. LNMP架构迁移数据库说明__<br>
 　　迁移数据库：利用数据库备份命令（mysql mysqladmin mysqldump）<br>
 - 1） 备份数据库数据库信息<br>
-   ``mysqldump -uroot -poldboy123 --all-databases >/tmp/bak.sql``<br>
+   ``mysqldump -uroot -p'password' --all-databases >/tmp/bak.sql``<br>
    ``ll /tmp/bak.sql -h``<br>
    ``scp /tmp/bak.sql 172.16.1.51:/tmp/``<br>
 
 - 2） 恢复数据库数据库信息<br>
    ```
    ##db01
-   mysql -uroot -poldboy123 </tmp/bak.sql
+   mysql -uroot -p'password' </tmp/bak.sql
    ###db01添加新的用户
-   grant all on wordpress.* to wordpress@'172.16.1.0/255.255.255.0' identified by 'oldboy123';
+   grant all on wordpress.* to wordpress@'172.16.1.0/255.255.255.0' identified by 'password';
    flush privileges;
-   mysql -uwordpress -poldboy123 -h 172.16.1.51
+   mysql -uwordpress -p'password' -h 172.16.1.51
    ```
 
 - 3） 数据库迁移完毕，修改网站连接数据库的配置文件<br>
      ```
-     mysql -uwordpress -poldboy123 -h 172.16.1.51       <-- 修改配置文件之前，先测试网站web服务器与迁移后的数据库连通性
+     mysql -uwordpress -p'password' -h 172.16.1.51       <-- 修改配置文件之前，先测试网站web服务器与迁移后的数据库连通性
      vim wp-config.php                                  <-- 修改wordpress上的数据库连接参数信息
      /** MySQL主机 */
      define('DB_HOST','172.16.1.51')                    <-- 修改连接的主机信息，将localhost修改为172.16.1.51
@@ -224,40 +224,3 @@ __03. nginx反向代理负载均衡功能__<br>
            web02 www.etiantian.org<br>
            ``[root@lb01 conf]# curl -H host:www.etiantian.org 10.0.0.5/oldboy.html``<br>
            web03 www.etiantian.org<br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

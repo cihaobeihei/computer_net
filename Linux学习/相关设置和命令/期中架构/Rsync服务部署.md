@@ -40,7 +40,7 @@ __rsync守护进程__<br>
         auth users = rsync_backup
         secrets file = /etc/rsync.password
         [backup]
-        comment = "backup dir by oldboy"
+        comment = "backup dir by noble"
         path = /backup
         ```
 

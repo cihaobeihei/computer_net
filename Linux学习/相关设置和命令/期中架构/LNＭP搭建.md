@@ -42,8 +42,8 @@ __03. LNMP架构部署__<br>
             ```
         - 第六个里程：设置数据库root用户登录密码
             ```
-            /application/mysql/bin/mysqladmin -uroot password "oldboy123"
-            /application/mysql/bin/mysql -uroot -poldboy123
+            /application/mysql/bin/mysqladmin -uroot password "password"
+            /application/mysql/bin/mysql -uroot -p'password'
             ```
     - ④. PHP软件安装部署过程
         - 第一里程：解决PHP软件的依赖关系
@@ -116,23 +116,23 @@ __03. LNMP架构部署__<br>
         ```
         ln -s /application/mysql/lib/libmysqlclient.so.18  /usr/lib64/
         touch ext/phar/phar.phar
-		make
+	    	make
         make install
-		ln -s /application/php-5.5.32/ /application/php
+	    	ln -s /application/php-5.5.32/ /application/php
         ```
 
         - 第三个里程：设置PHP程序配置文<br>
         ```
         php.ini php-fpm.ini
         cp php.ini-production /application/php-5.5.32/lib/
-		cd /application/php/etc/
-		cp php-fpm.conf.default php-fpm.conf
-		```
+	    	cd /application/php/etc/
+	    	cp php-fpm.conf.default php-fpm.conf
+	    	```
 
         - 第四个里程：启动php程序服务<br>
         ```
-		/application/php/sbin/php-fpm
-		netstat -lntup|grep php
+	    	/application/php/sbin/php-fpm
+	    	netstat -lntup|grep php
         tcp        0      0 127.0.0.1:9000              0.0.0.0:*                   LISTEN      6251/php-fpm
         ```
 

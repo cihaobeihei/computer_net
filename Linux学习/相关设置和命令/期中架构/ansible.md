@@ -40,11 +40,11 @@ __03. ansible软件安装部署__<br>
 		影响免交互批量分发密钥因素<br>
     - 1）需要有确认连接过程，需要输入yes/no<br>
 		   ``-o StrictHostKeyChecking=no``<br>
-		   ``sshpass -p123456 ssh-copy-id -i /root/.ssh/id_dsa.pub "-o StrictHostKeyChecking=no 172.16.1.31"``<br>
+		   ``sshpass -p'password' ssh-copy-id -i /root/.ssh/id_dsa.pub "-o StrictHostKeyChecking=no 172.16.1.31"``<br>
 
     - 2）需要解决密码问题
        ```
-       sshpass -p123456 ssh-copy-id -i /root/.ssh/id_dsa.pub 172.16.1.31<br>
+       sshpass -p'password' ssh-copy-id -i /root/.ssh/id_dsa.pub 172.16.1.31<br>
        Now try logging into the machine, with "ssh '172.16.1.31'", and check in:<br>
 
          .ssh/authorized_keys
@@ -60,7 +60,7 @@ __03. ansible软件安装部署__<br>
 
         for ip in 31 41 7
         do
-        sshpass -p123456 ssh-copy-id -i /root/.ssh/id_dsa.pub "-o StrictHostKeyChecking=no 172.16.1.$ip"
+        sshpass -p'password' ssh-copy-id -i /root/.ssh/id_dsa.pub "-o StrictHostKeyChecking=no 172.16.1.$ip"
         done
         ```
 
@@ -74,7 +74,7 @@ __03. ansible软件安装部署__<br>
 
         for ip in 31 41 7
         do
-        sshpass -p123456 ssh-copy-id -i /root/.ssh/id_dsa.pub "-o StrictHostKeyChecking=no 172.16.1.$ip"
+        sshpass -p'password' ssh-copy-id -i /root/.ssh/id_dsa.pub "-o StrictHostKeyChecking=no 172.16.1.$ip"
         done
         ```
 
@@ -83,7 +83,7 @@ __03. ansible软件安装部署__<br>
         vim /etc/ansible/hosts
         [oldboy]
         172.16.1.7
-        172.16.1.31 ansible_user=root ansible_password=123456
+        172.16.1.31 ansible_user=root ansible_password='password'
         172.16.1.41
 
         ansible 172.16.1.31 -m command -a "hostname" -k     --- 实现口令交互式远程管理
@@ -319,7 +319,7 @@ __04. ansible软件应用过程__<br>
 	    minute=0-59 * */n , -   hour  day  month weekday  job='/bin/sh /server/scripts/test.sh &>/dev/null'
 
 	    添加定时任务
-	    ansible 172.16.1.41 -m cron -a "minute=0 hour=0 job='/bin/sh /server/scripts/test.sh &>/dev/null'"
+	      ansible 172.16.1.41 -m cron -a "minute=0 hour=0 job='/bin/sh /server/scripts/test.sh &>/dev/null'"
         ansible 172.16.1.41 -m cron -a "name=oldboy02 minute=0 hour=0 job='/bin/sh /server/scripts/test.sh &>/dev/null'"
 
 	    删除定时任务
@@ -369,48 +369,3 @@ __04. ansible软件应用过程__<br>
     作业：<br>
     01. nfs服务一键化部署<br>
     02. inotify/sersync软件一键化部署<br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
