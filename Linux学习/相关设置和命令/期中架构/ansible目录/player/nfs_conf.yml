@@ -13,7 +13,7 @@
     - name: step03:edit configrate file
       shell: echo '/data 172.16.1.0/24(rw,sync)' > /etc/exports
     - name: step04:create share directory
-      file: name=/data owner=nfsnobody group=nfsnobody
+      file: name=/data state=directory owner=nfsnobody group=nfsnobody
     - name: step05:run rpcbind
       shell: /etc/init.d/rpcbind start
     - name: step06:run nfs
@@ -25,5 +25,5 @@
       yum: name=nfs-utils state=installed
     - name: step02:install rpcbind
       yum: name=rpcbind state=installed
-    - name: step03:mount the directory
-      shell: mount -t nfs 172.16.1.31:/data /mnt
+#    - name: step03:mount the directory
+#      shell: mount -t nfs 172.16.1.31:/data /mnt

@@ -178,7 +178,7 @@ __03. LNMP架构部署__<br>
 	   创建连接数据用户信息<br>
 	   ```
 	   grant all on wordpress.* to 'wordpress'@'localhost' identified by 'oldboy123';
-     grant all privileges  on *.* to root@'%' identified by 'password';
+       grant all privileges  on *.* to root@'%' identified by 'password';
 	   select user,host from mysql.user;
 	   ```
 
@@ -186,3 +186,4 @@ __03. LNMP架构部署__<br>
 	   01. LNMP架构数据库服务的迁移<br>
 	   02. LNMP架构数据资源迁移到NFS服务器存储<br>
 	   03. nginx反向代理与负载均衡功能<br>
+/application/nginx/html/blog/wp-content/uploads
