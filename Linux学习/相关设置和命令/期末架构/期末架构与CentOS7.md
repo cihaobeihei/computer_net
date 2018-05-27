@@ -67,6 +67,7 @@
 - 补充安装软件包<br>
 - yum -y install wget vim lrzsz bash-completion telnet nmap tree<br>
 - 关闭selinux：/etc/selinux/config<br>
+  getenforce
 - 关闭防火墙：systemctl disable firewalld.service<br>
 - 关机做快照<br>
 
