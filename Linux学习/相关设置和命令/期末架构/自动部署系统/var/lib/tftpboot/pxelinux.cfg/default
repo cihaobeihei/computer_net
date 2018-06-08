@@ -1,0 +1,6 @@
+default ks
+prompt 0
+
+label ks
+  kernel vmlinuz
+  append initrd=initrd.img ks=http://172.16.1.201/ks_config/CentOS7-ks.cfg net.ifnames=0 biosdevname=0 ksdevice=eth1
