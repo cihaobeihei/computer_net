@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68997e53-2f08-46a1-a5f5-bb81d67f6ab1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linux学习/相关设置和命令/Linux优化.md" beforeDir="false" afterPath="$PROJECT_DIR$/Linux学习/相关设置和命令/Linux优化.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c/c语言入门/2.数据类型.md" beforeDir="false" afterPath="$PROJECT_DIR$/c/c语言入门/2.数据类型.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c/错误积累.md" beforeDir="false" afterPath="$PROJECT_DIR$/c/错误积累.md" afterDir="false" />
-    </list>
+    <list default="true" id="68997e53-2f08-46a1-a5f5-bb81d67f6ab1" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/Linux学习/相关设置和命令/正则表达式和特殊符号.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="171">
+              <first_editor relative-caret-position="-133">
                 <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
               </first_editor>
               <second_editor>
@@ -102,9 +96,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="82" />
-    <option name="y" value="61" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="73" />
+    <option name="y" value="38" />
     <option name="width" value="1595" />
     <option name="height" value="844" />
   </component>
@@ -126,13 +120,7 @@
             <path>
               <item name="computer_net" type="b2602c69:ProjectViewProjectNode" />
               <item name="computer_net" type="462c0819:PsiDirectoryNode" />
-              <item name="Linux学习" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="computer_net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="computer_net" type="462c0819:PsiDirectoryNode" />
-              <item name="Linux学习" type="462c0819:PsiDirectoryNode" />
-              <item name="相关设置和命令" type="462c0819:PsiDirectoryNode" />
+              <item name="c" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -167,8 +155,7 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="66" y="49" width="1276" height="675" extended-state="1" />
-    <editor active="true" />
+    <frame x="59" y="31" width="1276" height="675" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -508,10 +495,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/c/我的代码库/my_mem.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Linux学习/相关设置和命令/正则表达式和特殊符号.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="171">
+          <first_editor relative-caret-position="-133">
             <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
           </first_editor>
           <second_editor>
