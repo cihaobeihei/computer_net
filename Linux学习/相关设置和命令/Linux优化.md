@@ -107,12 +107,20 @@ __11.安装其他小软件__<br>
 ```
 yum install lrzsz nmap tree dos2unix nc telnet sl -y
 ```
-
-__12.ssh连接速度慢优化__<br>
+__12.给grep和egrep设置别名__<br>
+```
+cat >>/etc/profile<<EOF
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+```
+__13.ssh连接速度慢优化__<br>
 ```
 sed -i.bak 's@#UseDNS yes@UseDNS no@g;s@^GSSAPIAuthentication yes@GSSAPIAuthentication no@g'  /etc/ssh/sshd_config
 /etc/init.d/sshd reload
+EOF
 ```
+
+``source /etc/profile``
 
 # 虚拟主机克隆操作
 __第一步：调整虚拟主机网络配置信息__<br>
