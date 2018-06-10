@@ -4,6 +4,7 @@
     <list default="true" id="68997e53-2f08-46a1-a5f5-bb81d67f6ab1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linux学习/相关设置和命令/正则表达式和特殊符号.md" beforeDir="false" afterPath="$PROJECT_DIR$/Linux学习/相关设置和命令/正则表达式和特殊符号.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,20 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GDB调试器的使用.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/c/GDB调试器的使用.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1463">
-                <caret line="77" selection-start-line="77" selection-end-line="77" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2.数据类型.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/c/c语言入门/2.数据类型.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
@@ -42,11 +29,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my_string.h" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/c/我的代码库/my_string.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="764">
-              <caret line="44" column="2" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
+      <file leaf-file-name="正则表达式和特殊符号.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Linux学习/相关设置和命令/正则表达式和特殊符号.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="761">
+                <caret line="128" selection-start-line="128" selection-end-line="128" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -76,14 +68,14 @@
         <option value="$PROJECT_DIR$/c/c语言入门/2.数据类型.md" />
         <option value="$PROJECT_DIR$/c/错误积累.md" />
         <option value="$PROJECT_DIR$/Linux学习/相关设置和命令/Linux优化.md" />
-        <option value="$PROJECT_DIR$/Linux学习/相关设置和命令/正则表达式和特殊符号.md" />
         <option value="$PROJECT_DIR$/c/我的代码库/my_string.h" />
+        <option value="$PROJECT_DIR$/Linux学习/相关设置和命令/正则表达式和特殊符号.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="145" />
-    <option name="y" value="212" />
+    <option name="x" value="18" />
+    <option name="y" value="175" />
     <option name="width" value="1595" />
     <option name="height" value="845" />
   </component>
@@ -95,7 +87,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,18 +97,19 @@
             <path>
               <item name="computer_net" type="b2602c69:ProjectViewProjectNode" />
               <item name="computer_net" type="462c0819:PsiDirectoryNode" />
-              <item name="c" type="462c0819:PsiDirectoryNode" />
+              <item name="Linux学习" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="computer_net" type="b2602c69:ProjectViewProjectNode" />
               <item name="computer_net" type="462c0819:PsiDirectoryNode" />
-              <item name="c" type="462c0819:PsiDirectoryNode" />
-              <item name="我的代码库" type="462c0819:PsiDirectoryNode" />
+              <item name="Linux学习" type="462c0819:PsiDirectoryNode" />
+              <item name="相关设置和命令" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -126,6 +118,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git_repository\computer_net\Linux学习\img" />
       <recent name="F:\python\computer_net\c\img" />
       <recent name="F:\python\computer_net\Linux学习\相关设置和命令\期末架构\img" />
     </key>
@@ -146,8 +139,7 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="116" y="170" width="1276" height="676" extended-state="0" />
-    <editor active="true" />
+    <frame x="15" y="140" width="1276" height="676" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -169,6 +161,61 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/c/c语言入门/2.数据类型.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="38">
+            <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linux学习/相关设置和命令/正则表达式和特殊符号.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2432">
+            <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c/GDB调试器的使用.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1463">
+            <caret line="77" selection-start-line="77" selection-end-line="77" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c/c语言入门/2.数据类型.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="38">
+            <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c/我的代码库/my_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="44" column="2" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/c/GDB调试器的使用.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -463,16 +510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Linux学习/相关设置和命令/已学习的命令.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Linux学习/相关设置和命令/期中架构/keepalived.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -516,18 +553,6 @@
         <state relative-caret-position="-390" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Linux学习/相关设置和命令/正则表达式和特殊符号.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="19">
-            <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/c/错误积累.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -537,6 +562,13 @@
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c/我的代码库/my_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="44" column="2" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -552,10 +584,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c/我的代码库/my_string.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="764">
-          <caret line="44" column="2" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
+    <entry file="file://$PROJECT_DIR$/Linux学习/相关设置和命令/已学习的命令.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linux学习/相关设置和命令/文件配置.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linux学习/相关设置和命令/正则表达式和特殊符号.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="761">
+            <caret line="128" selection-start-line="128" selection-end-line="128" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
