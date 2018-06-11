@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68997e53-2f08-46a1-a5f5-bb81d67f6ab1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/c/我的代码库/my_mem.h" beforeDir="false" afterPath="$PROJECT_DIR$/c/我的代码库/my_mem.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/c/我的代码库/my_string.h" beforeDir="false" afterPath="$PROJECT_DIR$/c/我的代码库/my_string.h" afterDir="false" />
     </list>
@@ -47,8 +45,8 @@
       <file leaf-file-name="my_mem.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/c/我的代码库/my_mem.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="669">
-              <caret line="86" column="21" lean-forward="true" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+            <state relative-caret-position="76">
+              <caret line="31" column="55" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -56,8 +54,8 @@
       <file leaf-file-name="my_string.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/c/我的代码库/my_string.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+            <state relative-caret-position="308">
+              <caret line="172" column="50" selection-start-line="172" selection-start-column="50" selection-end-line="172" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -93,9 +91,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="53" />
-    <option name="y" value="62" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="96" />
+    <option name="y" value="138" />
     <option name="width" value="1595" />
     <option name="height" value="845" />
   </component>
@@ -170,7 +168,7 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="50" width="1276" height="676" extended-state="1" />
+    <frame x="77" y="111" width="1276" height="676" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -662,15 +660,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/c/我的代码库/my_mem.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="86" column="21" lean-forward="true" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+        <state relative-caret-position="76">
+          <caret line="31" column="55" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/c/我的代码库/my_string.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        <state relative-caret-position="308">
+          <caret line="172" column="50" selection-start-line="172" selection-start-column="50" selection-end-line="172" selection-end-column="50" />
         </state>
       </provider>
     </entry>

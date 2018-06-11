@@ -6,6 +6,10 @@
  *des:
  *string management
  *this head need "my_mem.h".
+
+cover function:
+ inverse,get_no_space_count,get_num_sub,replaceSubstr
+
 */
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
@@ -165,6 +169,10 @@ int main()
 //***********************************************************************************
 int replaceSubstr(IN char *src, OUT char **dst, IN char *sub ,IN char *new_sub)
 {
+        if(src == NULL || sub == NULL){
+                fprintf(stderr,"error: src || sub is NULL!");
+                return -1;
+        }
         char *src_string = NULL;//save old string
         char *new_string = NULL;//save changede string
         char *temp = NULL;//save pointer that point to sub address in src

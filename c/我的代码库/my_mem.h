@@ -6,6 +6,10 @@
  *des:
  *memory management
  *
+
+ cover function:
+ get_mem,free_mem
+
 */
 #include<stdio.h>
 #include<stdlib.h>
