@@ -6,7 +6,7 @@
  *des:
  *memory management
  *
- * */
+*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -15,7 +15,11 @@
 #define IN
 //create many memory spases.
 //***************************************************************************************************************
-//the function need any number of paraments,but the paraments number must be two times except fist one.so the fist parament is number of your input paraments(except itself).then the second parament is number of memory spaces that you want create,the unit is char.the next parament is address of pointer(**pp),means a pointer to a pointer
+//the function need any number of paraments,but the paraments number must be two times except fist one.so the fist
+//parament is number of your input paraments(except itself).then the second parament is number of memory spaces
+//that you want create,the unit is char.the next parament is address of pointer(**pp),means a pointer to a pointer
+//eg:
+//get_mem(4,,100,&point1,200,&point2)
 //***************************************************************************************************************
 int get_mem(IN int n_values, ...)
 {
