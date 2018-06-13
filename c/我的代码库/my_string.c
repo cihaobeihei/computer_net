@@ -8,7 +8,7 @@
  *this head need "my_mem.h".
 
 cover function:
- inverse,get_no_space_count,get_num_sub,replaceSubstr
+ inverse,get_no_space_count,get_num_sub,replaceSubstr,get_no_space_string
 
 */
 #define _CRT_SECURE_NO_WARNINGS
@@ -16,10 +16,11 @@ cover function:
 #include<stdlib.h>
 #include<string.h>
 #include <ctype.h>
-#include"my_mem.h"
 #define OUT
 #define IN
 
+
+extern int get_mem(IN int n_values, ...);
 
 //**********************************************************************************
 //Take the pointer that point to fist address of the string and reverse the string
@@ -201,4 +202,66 @@ int main()
         return 0;
 }
 
+*/
+
+//***********************************************************************************
+//get two variables,one sourse string,one pointer's address
+//(des pointer can point to soures)
+//script the spaces of string,and make des_str point to it.
+//
+//notise: if *des_str!=sourse_str.the des_str is point to heap.that means you need
+//to free it by yourself.
+//***********************************************************************************
+
+int get_no_space_string(IN const char *src_str,char OUT **des_str)
+{
+	if(src_str==NULL)
+	{
+		fprintf(stderr,"error: src_str=NULL!");
+		return -1;
+	}
+	const char *source_str=NULL;//begin of src_string
+	const char *end_str=NULL;//end of src_string
+	int len=0;//source src_string lenth
+	source_str=src_str;
+	end_str=source_str+strlen(source_str)-1;
+	len = strlen(source_str);
+	//get no space string
+	//pointer source_str point to fist charactor of string.
+	//pointer end_str point to ended charactor of string.
+	for(;isspace(*source_str);source_str++)
+	{
+		;
+	}
+	for(;isspace(*end_str);end_str--)
+	{
+		;
+	}
+	//begin to assign value
+	if(*des_str!=src_str)
+	{
+		int new_len=0;//no space string lenth
+		char *new_str=NULL;//poin to heap string.
+		new_len = end_str - source_str+1;
+		get_mem(2,new_len,&new_str);
+		for(int i=0;new_len+1>0;i++,new_len--)
+		{
+			*(new_str+i)=*source_str;
+			source_str++;
+		}
+		//that all function over.
+		*des_str=new_str;
+	}
+	return 0;
+}
+
+/*
+int main()
+{
+	char src[]="  sdfggag ljlfd  ";
+	char *des=NULL;
+	get_no_space_string(src,&des);
+	printf("%s\n",des);
+	return 0;
+}
 */
