@@ -4,8 +4,8 @@
     <list default="true" id="68997e53-2f08-46a1-a5f5-bb81d67f6ab1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c/我的代码库/my_mem.h" beforeDir="false" afterPath="$PROJECT_DIR$/c/我的代码库/my_mem.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c/我的代码库/my_string.h" beforeDir="false" afterPath="$PROJECT_DIR$/c/我的代码库/my_string.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linux学习/Ubuntu/1.Ubuntu基础优化.md" beforeDir="false" afterPath="$PROJECT_DIR$/Linux学习/Ubuntu/1.Ubuntu基础优化.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c/错误积累.md" beforeDir="false" afterPath="$PROJECT_DIR$/c/错误积累.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,12 +16,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2.数据类型.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/c/c语言入门/2.数据类型.md">
+      <file leaf-file-name="3.NTP时间服务-PPTP-VPN.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Linux学习/相关设置和命令/期末架构/3.NTP时间服务-PPTP-VPN.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="38">
-                <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+              <first_editor relative-caret-position="228">
+                <caret line="12" selection-start-line="12" selection-end-line="12" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -30,12 +30,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="正则表达式和特殊符号.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Linux学习/相关设置和命令/正则表达式和特殊符号.md">
+      <file leaf-file-name="错误积累.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c/错误积累.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2432">
-                <caret line="128" selection-start-line="128" selection-end-line="128" />
+              <first_editor relative-caret-position="285">
+                <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -44,29 +44,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my_mem.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/c/我的代码库/my_mem.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="72" column="19" lean-forward="true" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
+      <file leaf-file-name="4.文件操作.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/c/c语言入门/4.文件操作.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="519">
+                <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my_string.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/c/我的代码库/my_string.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3556">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="my_head.h" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/c/我的代码库/my_head.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="10" selection-start-line="8" selection-end-line="8" selection-end-column="74" />
+      <file leaf-file-name="3.顺序程序设计.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c/c语言入门/3.顺序程序设计.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -94,19 +93,23 @@
         <option value="$PROJECT_DIR$/c/c语言入门/c语言概述和第一个c语言程序.md" />
         <option value="$PROJECT_DIR$/c/GDB调试器的使用.md" />
         <option value="$PROJECT_DIR$/c/c语言入门/2.数据类型.md" />
-        <option value="$PROJECT_DIR$/c/错误积累.md" />
         <option value="$PROJECT_DIR$/Linux学习/相关设置和命令/Linux优化.md" />
         <option value="$PROJECT_DIR$/Linux学习/相关设置和命令/正则表达式和特殊符号.md" />
         <option value="$PROJECT_DIR$/c/我的代码库/my_mem.h" />
         <option value="$PROJECT_DIR$/c/我的代码库/my_string.h" />
         <option value="$PROJECT_DIR$/c/我的代码库/my_string.c" />
         <option value="$PROJECT_DIR$/c/我的代码库/my_head.h" />
+        <option value="$PROJECT_DIR$/c/我的代码库/未完成/test.c" />
+        <option value="$PROJECT_DIR$/Linux学习/Ubuntu/1.Ubuntu基础优化.md" />
+        <option value="$PROJECT_DIR$/c/错误积累.md" />
+        <option value="$PROJECT_DIR$/c/c语言入门/文件操作.md" />
+        <option value="$PROJECT_DIR$/c/c语言入门/4.文件操作.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="112" />
-    <option name="y" value="77" />
+    <option name="x" value="925" />
+    <option name="y" value="166" />
     <option name="width" value="1595" />
     <option name="height" value="845" />
   </component>
@@ -118,7 +121,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,31 +137,29 @@
               <item name="computer_net" type="b2602c69:ProjectViewProjectNode" />
               <item name="computer_net" type="462c0819:PsiDirectoryNode" />
               <item name="c" type="462c0819:PsiDirectoryNode" />
-              <item name="我的代码库" type="462c0819:PsiDirectoryNode" />
+              <item name="c语言入门" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="computer_net" type="b2602c69:ProjectViewProjectNode" />
               <item name="computer_net" type="462c0819:PsiDirectoryNode" />
-              <item name="Linux学习" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="computer_net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="computer_net" type="462c0819:PsiDirectoryNode" />
-              <item name="Linux学习" type="462c0819:PsiDirectoryNode" />
-              <item name="相关设置和命令" type="462c0819:PsiDirectoryNode" />
+              <item name="c" type="462c0819:PsiDirectoryNode" />
+              <item name="c语言入门" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../study_note" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git_repository\computer_net\c\c语言入门\img" />
       <recent name="D:\git_repository\computer_net\Linux学习\img" />
       <recent name="F:\python\computer_net\c\img" />
       <recent name="F:\python\computer_net\Linux学习\相关设置和命令\期末架构\img" />
@@ -181,10 +181,10 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-179" y="47" width="1276" height="676" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16774194" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17899604" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -204,73 +204,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Linux学习/相关设置和命令/正则表达式和特殊符号.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2432">
-            <caret line="128" selection-start-line="128" selection-end-line="128" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c/c语言入门/2.数据类型.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linux学习/相关设置和命令/正则表达式和特殊符号.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2432">
-            <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c/GDB调试器的使用.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1463">
-            <caret line="77" selection-start-line="77" selection-end-line="77" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c/c语言入门/2.数据类型.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c/我的代码库/my_string.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="44" column="2" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/c/GDB调试器的使用.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -603,30 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c/错误积累.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="357">
-            <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c/c语言入门/2.数据类型.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Linux学习/相关设置和命令/已学习的命令.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -647,10 +556,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/c/我的代码库/未完成/test.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c/我的代码库/my_head.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c/我的代码库/my_string.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Linux学习/相关设置和命令/正则表达式和特殊符号.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2432">
+          <first_editor relative-caret-position="452">
             <caret line="128" selection-start-line="128" selection-end-line="128" />
           </first_editor>
           <second_editor>
@@ -661,22 +591,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/c/我的代码库/my_mem.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="72" column="19" lean-forward="true" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
+        <state relative-caret-position="593">
+          <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c/我的代码库/my_string.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3556">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+    <entry file="file://$PROJECT_DIR$/Linux学习/Ubuntu/1.Ubuntu基础优化.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="514">
+            <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c/我的代码库/my_head.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="10" selection-start-line="8" selection-end-line="8" selection-end-column="74" />
+    <entry file="file://$PROJECT_DIR$/Linux学习/相关设置和命令/期末架构/3.NTP时间服务-PPTP-VPN.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="228">
+            <caret line="12" selection-start-line="12" selection-end-line="12" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c/c语言入门/2.数据类型.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="38">
+            <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c/c语言入门/1.c语言概述和第一个c语言程序.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-407" />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c/错误积累.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="285">
+            <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c/c语言入门/3.顺序程序设计.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c/c语言入门/4.文件操作.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="519">
+            <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
