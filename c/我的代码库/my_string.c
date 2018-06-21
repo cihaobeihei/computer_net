@@ -11,7 +11,7 @@ cover function:
  inverse,get_no_space_count,get_num_sub,replaceSubstr,get_no_space_string
 
 */
-#define _CRT_SECURE_NO_WARNINGS
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -136,7 +136,7 @@ int get_num_sub(IN const char*dest, IN const char*sub) {
 	int lenth=0;
 	p = dest;
 	lenth = strlen(dest);
-	for (; p != NULL || lenth<strlen(sub); lenth =strlen(p), p = p + strlen(sub)) {
+	for (; p != NULL || lenth<(int)strlen(sub); lenth =strlen(p), p = p + strlen(sub)) {
 		p=strstr(p, sub);
 		count++;
 		if (p <= '\0') {

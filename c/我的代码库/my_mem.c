@@ -60,7 +60,7 @@ int get_mem(IN int n_values, ...)
 //this function is uesd cooperatily with get_mam function.
 //***************************************************************************************************
 //this function recevie any number of paraments.
-//the fist paraments is number of paraments.other paraments is pointer of needing to be free 
+//the fist paraments is number of paraments.other paraments is pointer of needing to be free
 //***************************************************************************************************
 int free_mem(IN int n_values, ...)
 {
