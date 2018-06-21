@@ -102,6 +102,7 @@ __05. SSH服务端配置文件信息说明(/etc/ssh/sshd_config)__<br>
     PermitEmptyPasswords no　　　<- 是否允许空密码<br>
     UseDNS no 　　　　　　　　　<- 是否进行DNS反向解析（提升ssh远程连接效率）<br>
     GSSAPIAuthentication no	　　　<- 是否进行远程GSSAPI认证（提升ssh远程连接效率）<br>
+    PasswordAuthentication  no     <- 不适用密码认证登录
 
 __10. sftp常用操作命令总结__<br>
     bye　　　　　 Quit sftp　　　　　　　　　　　　　　　　<-- 表示退出sftp传输模式<br>
@@ -117,27 +118,3 @@ __10. sftp常用操作命令总结__<br>
    思考：
    01. 批量的分发公钥信息，并且采用免交互方式实现
    02. 批量管理（ansible）
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -22,7 +22,7 @@ __rsync守护进程__<br>
 
         ```
         #rsync_config
-        #created by HQ at 2017
+        #created by Noble at 2017
         ##rsyncd.conf start##
         uid = rsync
         gid = rsync
@@ -64,3 +64,20 @@ __rsync守护进程__<br>
         - chomd 600 /etc/rsync.password
     - 进行数据备份测试
         - rsync -avz /etc/hosts rsync_backup@172.16.1.41::backup --password-file=/etc/rsync.password
+__01.回顾__<br>
+- 备份服务概念介绍（rsync备份服务利用相应算法，实现增量数据同步）
+  - 备份服务工作方式说明：
+    - 1.本地数据备份同步方式(类似cp命令)
+    - 2.远程数据备份同步方式(类似scp命令)
+    - 3.守护进程方式备份同步
+  - 备份服务器守护进程部署
+    - 1.服务端部署流程
+    - 2.客户端部署流程
+  - 备份服务配置文件与命令参数说明（man rsyncd.conf man rsync)
+  - 备份服务扩展应用实践
+    - 1.实现rsync服务多个模块配置
+    - 2.实现rsync服务数据同步过滤功能
+    - 3.实现rsync服务访问策略控制
+    - 4.实现rsync服务无差异同步功能（--delete）
+    - 5.实现rsync服务客户端创建备份目录信息
+    - 6.实现rsync模块信息列表显示（list=true）
