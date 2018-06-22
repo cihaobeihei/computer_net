@@ -1,7 +1,7 @@
 /*
  *author: noble;
  *time:2018-06-09
- *vision 0.1
+ *vision 1.0
  *
  *des:
  *string management
@@ -12,15 +12,9 @@ cover function:
 
 */
 
-#include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
-#include <ctype.h>
-#define OUT
-#define IN
+#include"my_string.h"
 
 
-extern int get_mem(IN int n_values, ...);
 
 //**********************************************************************************
 //Take the pointer that point to fist address of the string and reverse the string

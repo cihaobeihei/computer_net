@@ -1,8 +1,8 @@
 /*
  *author: noble;
  *time:2018-06-09
- *vision 0.0
- *
+ *vision 1.0
+ *file name my_mem.c
  *des:
  *memory management
  *
@@ -11,12 +11,7 @@
  get_mem,free_mem
 
 */
-#include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
-#include<stdarg.h>
-#define OUT
-#define IN
+#include"my_mem.h"
 //create many memory spases.
 //***************************************************************************************************************
 //the function need any number of paraments,but the paraments number must be two times except fist one.so the fist
