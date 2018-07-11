@@ -1,5 +1,9 @@
 # vim使用
+首先需要了解一些VIM的基本设置：<br>
+[https://benmccormick.org/](https://benmccormick.org/2014/07/14/learning-vim-in-2014-configuring-vim/)<br>
 
+## 基本设置选项
+[https://www.shortcutfoo.com/](https://www.shortcutfoo.com/blog/top-50-vim-configuration-options/)<br>
 ## 搭建插件管理工具Vundle
 详细步骤见：[https://github.com/VundleVim/Vundle.vim#quick-start](https://github.com/VundleVim/Vundle.vim#quick-start)<br>
 __注意：__ 需要git和curl。<br>
