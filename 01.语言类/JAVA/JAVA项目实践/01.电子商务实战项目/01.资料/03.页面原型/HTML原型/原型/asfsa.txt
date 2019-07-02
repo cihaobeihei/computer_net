@@ -1,8 +1,0 @@
-send:lisi
-from_server:
-to_server:
-to:wangwu,zhangsan
-chaosong:zhaoliu,mary
-zhuti:ddddd
-neiront:ddafasdfsafsf
-time:2017年3月6日17:02:34
