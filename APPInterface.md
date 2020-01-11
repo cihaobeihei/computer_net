@@ -18,11 +18,20 @@
 
 ## 3.产品模块
 - ``/manage/product/add.do``增加产品
+  - ``/manage/feature/add.do``新增产品特性
+    - ``/manage/feature_item/add.do``新增产品特性选项
 - ``/manage/product/edit.do``编辑产品
+  - ``/manage/feature/edit.do``编辑产品特性
+    - ``/manage/feature_item/edit.do``编辑产品特性选项
 - ``/manage/product/delete.do``删除产品
+  - ``/manage/feature/delete.do``删除产品特性
+    - ``/manage/feature_item/delete.do``删除一个产品特性选项
+    - ``/manage/feature_item/deleteAll.do``删除一个产品特性时 同时删除所有关联选项
+  - ``/manage/feature/delete_all.do``删除一个产品的所有特性
 - ``/manage/product/list.do``展示所有产品
 - ``/manage/product/search.do``模糊查找产品
 - ``/product/detail.do``展示产品
+  - ``/feature/list_all.do``展示一个商品的所有特性
 - ``/product/list.do``获得产品列表(逛商店)
 
 ## 5.订单模块
